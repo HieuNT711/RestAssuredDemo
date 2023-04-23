@@ -85,6 +85,7 @@ public class StepsV2 {
     @Then("^The book is added$")
     public void bookIsAdded() {
         Assert.assertEquals(201, response.getStatusCode());
+        //hieu
     }
 
     @When("^I remove a book from my reading list$")

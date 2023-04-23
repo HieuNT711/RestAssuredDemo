@@ -114,6 +114,8 @@ public class StepsV2 {
         jsonString = response.asString();
         List<Map<String, String>> booksOfUser = JsonPath.from(jsonString).get("books");
         Assert.assertEquals(0, booksOfUser.size());
+        
+        //hieu 
     }
 
 }
